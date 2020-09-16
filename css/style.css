@@ -3,21 +3,38 @@ body {
     padding: 0;
     margin: 0;
 }
-
 .mainDiv {
-    width: 600px;
-    height: 600px;
+    background-color: cadetBlue;
     margin: 0 auto;
-    background-color: cornflowerblue;
-    font-size: 0;
+    height: 620px;
+    width: 620px;
 }
-
 .mainDiv > div {
-    width: 200px;
     height: 200px;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    border: 1px solid black;
+    width: 200px;
+    display: inline-block;
+    color: white;
 }
 
+.reds {
+    background-color: red;
+    border-radius: 50%;
+}
+.yellows {
+    background-color: yellow;
+    border-radius: 50%;
+}
+.greens {
+    background-color: green;
+    border-radius: 50%;
+}
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+    /*display: none; */
+}
+.green {
+    background-color: green;
+}
